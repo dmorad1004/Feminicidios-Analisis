@@ -1,6 +1,6 @@
 # Parcial práctico estadística descriptiva
 
-En este proyecto se hizo el análisis de feminicidios ocurridos entre los años 2015 y 2020.
+En este proyecto se hizo el análisis de feminicidios  ocurridos en Colombia entre los años 2015 y 2020.
 
 ## Integrantes
 
