@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>prueba</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="69c0c942-9175-40a7-80c8-d83964b186b3" data-root-id="1862"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2033">
+          {"f7746e9c-b12e-4674-a3f0-56e53fd421e6":{"defs":[],"roots":{"references":[{"attributes":{},"id":"1909","type":"AllLabels"},{"attributes":{"tools":[{"id":"1880"},{"id":"1881"},{"id":"1882"},{"id":"1883"},{"id":"1884"},{"id":"1885"},{"id":"1887"}]},"id":"1888","type":"Toolbar"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"field":"x","transform":{"id":"1896"}},"hatch_alpha":{"value":0.2},"line_alpha":{"value":0.2},"line_color":{"value":"white"},"top":{"field":"top"},"width":{"value":0.9},"x":{"field":"x"}},"id":"1900","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"x","transform":{"id":"1896"}},"hatch_alpha":{"value":0.1},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"top":{"field":"top"},"width":{"value":0.9},"x":{"field":"x"}},"id":"1899","type":"VBar"},{"attributes":{"below":[{"id":"1873"}],"center":[{"id":"1875"},{"id":"1879"}],"height":900,"left":[{"id":"1876"}],"renderers":[{"id":"1901"}],"title":{"id":"1863"},"toolbar":{"id":"1888"},"width":1000,"x_range":{"id":"1865"},"x_scale":{"id":"1869"},"y_range":{"id":"1867"},"y_scale":{"id":"1871"}},"id":"1862","subtype":"Figure","type":"Plot"},{"attributes":{"source":{"id":"1897"}},"id":"1902","type":"CDSView"},{"attributes":{"factors":["Bol\u00edvar","Antioquia","Cesar","Valle del Cauca","Sucre","Huila","Cauca","Atl\u00e1ntico","BOGOT\u00c1, D. C.","Tolima","Choc\u00f3","Nari\u00f1o","Casanare","Santander","Cundinamarca","Boyaca","Caldas","C\u00f3rdoba","La Guajira","Putumayo","Caquet\u00e1","Norte de Santander","Quind\u00edo","Magdalena","Risaralda","Meta","Arauca","Guain\u00eda"]},"id":"1865","type":"FactorRange"},{"attributes":{"coordinates":null,"group":null,"text":"N\u00famero de victimas por departamento en 2020","text_font_size":"20px"},"id":"1863","type":"Title"},{"attributes":{},"id":"1911","type":"Selection"},{"attributes":{},"id":"1874","type":"CategoricalTicker"},{"attributes":{},"id":"1877","type":"BasicTicker"},{"attributes":{},"id":"1869","type":"CategoricalScale"},{"attributes":{"callback":null,"tooltips":[["Departamento","@x"],["N\u00famero V\u00edctimas","@top"]]},"id":"1887","type":"HoverTool"},{"attributes":{},"id":"1881","type":"WheelZoomTool"},{"attributes":{},"id":"1910","type":"UnionRenderers"},{"attributes":{"axis_label":"V\u00edctimas","axis_label_text_font_size":"20px","axis_label_text_font_style":"bold","coordinates":null,"formatter":{"id":"1905"},"group":null,"major_label_policy":{"id":"1906"},"ticker":{"id":"1877"}},"id":"1876","type":"LinearAxis"},{"attributes":{"axis":{"id":"1876"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"1879","type":"Grid"},{"attributes":{},"id":"1905","type":"BasicTickFormatter"},{"attributes":{},"id":"1908","type":"CategoricalTickFormatter"},{"attributes":{"axis_label":"Departamento","axis_label_text_font_size":"20px","axis_label_text_font_style":"bold","coordinates":null,"formatter":{"id":"1908"},"group":null,"major_label_orientation":1,"major_label_policy":{"id":"1909"},"ticker":{"id":"1874"}},"id":"1873","type":"CategoricalAxis"},{"attributes":{},"id":"1871","type":"LinearScale"},{"attributes":{},"id":"1885","type":"HelpTool"},{"attributes":{},"id":"1880","type":"PanTool"},{"attributes":{"overlay":{"id":"1886"}},"id":"1882","type":"BoxZoomTool"},{"attributes":{},"id":"1906","type":"AllLabels"},{"attributes":{},"id":"1883","type":"SaveTool"},{"attributes":{},"id":"1884","type":"ResetTool"},{"attributes":{"axis":{"id":"1873"},"coordinates":null,"group":null,"ticker":null},"id":"1875","type":"Grid"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1886","type":"BoxAnnotation"},{"attributes":{"factors":["Bol\u00edvar","Antioquia","Cesar","Valle del Cauca","Sucre","Huila","Cauca","Atl\u00e1ntico","BOGOT\u00c1, D. C.","Tolima","Choc\u00f3","Nari\u00f1o","Casanare","Santander","Cundinamarca","Boyaca","Caldas","C\u00f3rdoba","La Guajira","Putumayo","Caquet\u00e1","Norte de Santander","Quind\u00edo","Magdalena","Risaralda","Meta","Arauca","Guain\u00eda"],"palette":["#30123b","#3a2c79","#4145ab","#4560d6","#4678f0","#4291fe","#36a8f9","#25c0e6","#19d3cf","#1ae4b6","#2cef9d","#4af880","#71fd5f","#92fe46","#aef937","#c5ef33","#dde036","#edcf39","#f9ba38","#fda330","#fc8926","#f66b18","#ec520e","#dd3c07","#cb2b03","#b41b01","#9a0e01","#7a0402"]},"id":"1896","type":"CategoricalColorMapper"},{"attributes":{"coordinates":null,"data_source":{"id":"1897"},"glyph":{"id":"1898"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1900"},"nonselection_glyph":{"id":"1899"},"view":{"id":"1902"}},"id":"1901","type":"GlyphRenderer"},{"attributes":{"data":{"top":[20,49,14,85,3,11,19,25,74,30,4,7,28,31,15,6,3,5,3,10,5,4,5,12,5,7,3,1],"x":["Bol\u00edvar","Antioquia","Cesar","Valle del Cauca","Sucre","Huila","Cauca","Atl\u00e1ntico","BOGOT\u00c1, D. C.","Tolima","Choc\u00f3","Nari\u00f1o","Casanare","Santander","Cundinamarca","Boyaca","Caldas","C\u00f3rdoba","La Guajira","Putumayo","Caquet\u00e1","Norte de Santander","Quind\u00edo","Magdalena","Risaralda","Meta","Arauca","Guain\u00eda"]},"selected":{"id":"1911"},"selection_policy":{"id":"1910"}},"id":"1897","type":"ColumnDataSource"},{"attributes":{},"id":"1867","type":"DataRange1d"},{"attributes":{"fill_color":{"field":"x","transform":{"id":"1896"}},"line_color":{"value":"white"},"top":{"field":"top"},"width":{"value":0.9},"x":{"field":"x"}},"id":"1898","type":"VBar"}],"root_ids":["1862"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('2033').textContent;
+                  const render_items = [{"docid":"f7746e9c-b12e-4674-a3f0-56e53fd421e6","root_ids":["1862"],"roots":{"1862":"69c0c942-9175-40a7-80c8-d83964b186b3"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
